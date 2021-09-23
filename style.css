@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+  
+  }
+  ul{
+      width: 100%;
+      padding: 5px 0;
+      background-color: rgb(158, 147, 147)
+  }
+  li{
+      display: inline;
+      padding: 10px 30px;
+  color:rgb(238, 238, 238);    
+  }
+  
+  .line{
+      width: 1px;
+      height: 3rem;
+      background-color: rgb(0, 0, 0);
+      opacity: 0.5;
+  }
+  .text-wrapper1 {
+      flex-direction: column;  
+      width: 60%;
+      align-items: center;
+      text-align: center;
+      padding: 5rem 2rem;
+      margin: auto;
+    }
+  .section-2 .text-wrapper1 p:first-of-type{
+      font-size: 1.06rem;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      font-weight: 300;
+      line-height: 1em;
+      letter-spacing: 2px;
+  }
+  .section-2 .text-wrapper1 h2{
+      color: rgb(0, 0, 0);
+      line-height: 1;
+      font-weight: 400;
+      font-size: 3rem;
+  }
+  .section-3 {
+      margin-bottom: 20%;
+  }
+  .section-3 .delay {
+  width: 50%;
+  float: left;
+  height: 85vh;
+  
+  }
+  .section-3 {
+      font-size: 1.00rem;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      font-weight: 300;
+      line-height: 1em;
+      letter-spacing: 2px;
+  }
+   
+  .section-3 img{
+      height: 70%;
+      width: 70%;
+      margin: auto;
+      padding: 100px;
+      margin-bottom: -50px;
+  }
+  .delay {
+      opacity: 0;
+      -webkit-transition: 1.2s;
+      transition: 1.2s;
+      transition: all 1.2s ease-in;
+  }
+  .delaymore{
+      opacity: 0;
+      -webkit-transition: 5.8s;
+      transition: 4.8s;
+      transition: all 4.8s ease-in;
+  }
+  
+  .text-blue-dark{
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color:rgb(8 31 146)
+  }
+  
+  .text-black{
+      color: rgb(17, 17, 31);
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      font-size: 0.68rem;
+  }
+  .delay--enter {
+      opacity: 1;
+  }
+  .mt-8{
+      padding: 0 20px
+  }
+  .py-10 {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+  }
+  .px-8 {
+      padding-left: 2rem;
+      padding-right: 2rem;}
+      
+  div {
+      display: block;
+  }
+  .leading-normal {
+      line-height: 1.5;
+  }
+  .font-calluna {
+      font-family: calluna,serif;
+  }
+  html {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      font-family: sans-serif;
+  }
+  html {
+      line-height: 1.15;
+      -webkit-text-size-adjust: 100%;
+  }
+  
+  /*
+  *, :after, :before {
+      border: 0 solid #e6e6e6;
+  }
+  *, :after, :before {
+      -webkit-box-sizing: inherit;
+      box-sizing: inherit;
+  }
+  *, :after, :before {
+      border: 0 solid #e6e6e6;
+  }
+  *, :after, :before {
+      -webkit-box-sizing: inherit;
+      box-sizing: inherit;
+  }
+  *, :after, :before {
+      border: 0 solid #0f0909;
+  }*, :after, :before {
+      -webkit-box-sizing: inherit;
+      box-sizing: inherit;
+  }*/
+  
+  .section-4 {
+    display: flex;
+    background-color: #162238;
+    height: 85vh;
+  }
+  
+  
+  .text-wrapper2  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    width: 40%;
+    position: relative;
+  }
+  .web-text {
+    position: absolute;
+    max-width: 30rem;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    padding: 0 5rem 2rem 5rem;
+    font-size: 1.75rem;
+    line-height: 1.25;
+  }
+  .sm-text{
+      font-size: 0.687rem;
+      padding-left: 2px;
+      letter-spacing: 0.25em;
+      margin-top: 2rem;
+      line-height: 1.5;
+      font-weight: 300;
+  }
+  
+  .font-lebeaune{    
+      font-family: lebeaune,serif;
+  }
+  
+  .font-calluna{
+      font-family: calluna,serif
+  }
+  .font-caslons{
+      font-family: caslons-egyptian,sans-serif
+  }
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;  
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    padding: 5rem 2rem;
+  }
+  .section-4 .text-wrapper > *:not(.line){
+      width: 70%;
+  }
+  .line{
+      width: 1px;
+      height: 3rem;
+      background-color: #fff;
+      opacity: 0.5;
+  }
+  .section-4 .text-wrapper p:first-of-type{
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      color: #fff;
+      opacity: 0.5;
+      margin: 1rem 0;
+  }
+  .section-4 .text-wrapper h2{
+      color: #fff;
+      line-height: 1;
+      font-weight: 400;
+      font-size: 3rem;
+  }
+  .section-4 .text-wrapper p:last-of-type{
+      font-size: 1.06rem;
+      color: #fff;
+      text-align: center;
+      font-weight: 300;
+      line-height: 1em;
+      letter-spacing: 2px;
+  }
+  
+  .section-4 .text-wrapper a{
+      text-decoration: none;
+      color: #fff;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      font-size: 0.68rem;
+      margin-top: 2rem;
+  }
