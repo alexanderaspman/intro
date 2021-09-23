@@ -6,12 +6,19 @@ body {
   ul{
       width: 100%;
       padding: 5px 0;
-      background-color: rgb(158, 147, 147)
+      background-color: rgb(125 159 183)
   }
   li{
       display: inline;
       padding: 10px 30px;
   color:rgb(238, 238, 238);    
+  }
+
+  li a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
   
   .line{
@@ -66,13 +73,14 @@ body {
       margin: auto;
       padding: 100px;
       margin-bottom: -50px;
-  }
-  .delay {
+  }  
+  .delay {                     
       opacity: 0;
       -webkit-transition: 1.2s;
       transition: 1.2s;
       transition: all 1.2s ease-in;
   }
+  /* berättar lägnden på animationen när javascriptet byter ut den till opicity 1 */
   .delaymore{
       opacity: 0;
       -webkit-transition: 5.8s;
@@ -125,27 +133,7 @@ body {
       -webkit-text-size-adjust: 100%;
   }
   
-  /*
-  *, :after, :before {
-      border: 0 solid #e6e6e6;
-  }
-  *, :after, :before {
-      -webkit-box-sizing: inherit;
-      box-sizing: inherit;
-  }
-  *, :after, :before {
-      border: 0 solid #e6e6e6;
-  }
-  *, :after, :before {
-      -webkit-box-sizing: inherit;
-      box-sizing: inherit;
-  }
-  *, :after, :before {
-      border: 0 solid #0f0909;
-  }*, :after, :before {
-      -webkit-box-sizing: inherit;
-      box-sizing: inherit;
-  }*/
+ 
   
   .section-4 {
     display: flex;
@@ -237,4 +225,9 @@ body {
       text-transform: uppercase;
       font-size: 0.68rem;
       margin-top: 2rem;
+  }
+  footer{
+      background-color: #454b75;
+      padding: 4px 10px;
+      color:white
   }
