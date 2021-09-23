@@ -133,27 +133,7 @@ body {
       -webkit-text-size-adjust: 100%;
   }
   
-  /*
-  *, :after, :before {
-      border: 0 solid #e6e6e6;
-  }
-  *, :after, :before {
-      -webkit-box-sizing: inherit;
-      box-sizing: inherit;
-  }
-  *, :after, :before {
-      border: 0 solid #e6e6e6;
-  }
-  *, :after, :before {
-      -webkit-box-sizing: inherit;
-      box-sizing: inherit;
-  }
-  *, :after, :before {
-      border: 0 solid #0f0909;
-  }*, :after, :before {
-      -webkit-box-sizing: inherit;
-      box-sizing: inherit;
-  }*/
+ 
   
   .section-4 {
     display: flex;
